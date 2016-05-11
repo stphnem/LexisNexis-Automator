@@ -35,3 +35,17 @@ The following program requires:
         myAutomator = LNAutomator()
         myAutomator.search("gun control")
         myAutomator.download_all_docs()
+ ```
+
+##Future Support
+ Web Drivers are needed to use the automator in other browsers. Drivers can be 
+ found in the link below.
+ http://www.seleniumhq.org/download/
+
+ Selenium IDE can be a very useful tool in the instance that the layout
+ of LexisNexis changes. Selenium IDE is a Mozilla Firefox plugin that records
+ the user clicks, inputs, etc. It provides plenty of informative information
+ to modifying the automator such as when to switch frames, what ids are selected,
+ and much more. 
+ 
+ http://www.seleniumhq.org/projects/ide/
